@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sprinter -  продаж автозапчастин,авторторозборка спрінтерів 1996-2006 року,автошрот,шрот,авто,авторозборка,деталы,запчастини,спринтер,Sprinter,Mercedes</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header>
+	    <div class="menu">
+	        <div class="row">
+	            <div class="large-3 medium-12 small-12 columns">
+	                <div class="logo">
+                    <img src="img/logosprinter.png" alt="">
+                    <span><a href="index.html">Sprinter</a></span>
+                </div>
+	            </div>
+	            <div class="large-7 medium-12 small-12 columns">
+                    <div class="mnu_button"><i class="fa fa-bars" aria-hidden="true"></i></div>
+	                <div class="mnu" id="mnuu">
+	                    <ul>
+                            <li><a href="index.html">Головна</a></li>
+                            <li><a href="prise.html">Товари</a></li>
+                            <li><a href="dot.html">Доставка</a></li>
+                            <li><a href="zakaz.html">Заказ</a></li>
+                            <li><a href="contact.html">Контакти</a></li>
+                        </ul>
+	                </div>
+	            </div>
+	            <div class="large-2  medium-4 small-4 columns">
+	                <div class="tell">
+                            <span><i class="fa fa-phone-square" aria-hidden="true"></i> (050)733-06-37 </span>
+                                <br>
+                            <span><i class="fa fa-phone-square" aria-hidden="true"></i> (098)255-24-09</span>
+                    </div>
+	            </div>
+	        </div>
+	    </div>
+	</header>
+   <section class="contact" >
+       <div class="row">
+           <div class="small-12 medium-12 large-12 columns">
+               <h1>Інформація про нас</h1>
+                <h2>"SPRINTER"- продаж автозапчастин,авторторозборка спрінтерів 1996-2006 року</h2>
+                <p>Будь-який власник автомобіля знає, що машина, укомплектована оригінальними запчастинами, може більше 10 років працювати без поломок і ремонтів. І варто поміняти якусь автозапчастину на китайський аналог, як вона ламається вже через рік. Саме тому покупка б / у запчастин з Європи стала настільки популярною останнім часом. Купувати б / у автозапчастини вважають за краще не тільки в Україні, але і в Європі. Адже купуючи б / у автозапчастини з Європи, ви отримуєте практично нову оригінальну деталь - якість європейських доріг дозволяє автозапчастинами навіть через кілька років залишатися практично в ідеальному стані. На користь оригінальних б / у запчастин говорить ще і якість металу, якісна грунтовка, захист від корозії, захисний шар цинку і безліч інших плюсів ліцензійних запчастин.</p>
+           </div>
+       </div>
+       <div class="row">
+           <div class="small-12 medium-12 large-12 columns">
+                 <h1>Наші контакти і місце розташування</h1>
+           </div>
+       </div>
+       <div class="row">
+           <div class="small-12 medium-6 large-6 columns">
+               <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+             <div id="map" style="width:100%; height:400px"></div>
+            </div>
+           </div>
+           <div class="small-12 medium-6 large-6 columns">
+                 <div class="contact_correct_ps">
+                     <h5>Наші контакти </h5>
+                            <span><i class="fa fa-phone-square" aria-hidden="true"></i> (050)733-06-37</span>
+                            <br>
+                            <span><i class="fa fa-phone-square" aria-hidden="true"></i> (098)255-24-09</span>
+                           
+                            <h5>Наша адреса</h5>
+                            <p>м.Івано-Франківськ, вулиця Чорновола 167</p>
+                            
+                            <h5>Наш Email</h5>
+                             <p><span><i class="fa fa-envelope-o" aria-hidden="true"></i></span> sprintershop@mail.ru</p>
+                 </div>
+           </div>
+       </div>
+   </section>
+    <footer>
+	    <div class="row">
+	        <div class="large-6 medium-6 small-12 columns">
+	            <h3>© SPRINTER - продаж автозапчастин,авторторозборка спрінтерів 1996-2006 року </h3>
+	        </div>
+	        <div class="large-6 medium-6 small-12 columns">
+	            <div class="mnu">
+	                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="prise.html">Товари</a></li>
+                    <li><a href="dot.html">Доставка</a></li>
+                    <li><a href="zakaz.html">Заказ</a></li>
+                    <li><a href="contact.html">Контакти</a></li>
+                </ul>
+	            </div>
+	        </div>
+	    </div>
+	</footer>
+	<script>
+      function initMap() {
+        var myLatLng = {lat: 48.8995216, lng: 24.6934215};
+
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: myLatLng,
+          scrollwheel: true,
+          zoom: 16
+        });
+
+        // Create a marker and set its position.
+        var marker = new google.maps.Marker({
+          map: map,
+          position: myLatLng,
+          title: 'Наше місце розташування!Івано-Франківськ, вулиця Чорновола 167'
+        });
+      }
+
+    </script>
+	<script src="js/libs.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmyfTG4q06pw-RYiH16T_qjlkqx3Or1Xs&callback=initMap"
+    async defer></script>
+</body>
+</html>
